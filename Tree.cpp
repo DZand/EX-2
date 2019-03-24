@@ -1,4 +1,6 @@
-#Danielle Zand and Benyamin Darmoni
+
+/**  Danielle Zand and Benyamin Darmoni */
+
 #include "Tree.hpp"
 using namespace ariel;
 Tree::Tree()
