@@ -49,6 +49,8 @@ int main() {
 
   .CHECK_OK    (emptytree.insert(5))
 
+  .CHECK_THROWS(emptytree.insert(5))
+
   .CHECK_EQUAL (emptytree.size(), 1)
 
   .CHECK_EQUAL (emptytree.contains(5), true)
@@ -80,6 +82,28 @@ int main() {
   .CHECK_THROWS(threetree.left(6))
 
   .CHECK_OK    (threetree.print())
+
+  .CHECK_THROWS(threetree.right(4))
+  
+  .CHECK_THROWS(threetree.insert(3.5))
+   
+  .CHECK_OK     (threetree.insert(-5))
+    
+  .CHECK_OK    (threetree.remove(5))
+    
+  .CHECK_EQUAL (threetree.root(), 7)
+    
+  .CHECK_EQUAL (threetree.left(7), 3)
+ 
+  .CHECK_THROWS(threetree.remove(2))
+   
+   
+   
+    
+    
+   
+    
+   
 
   .print();
 
