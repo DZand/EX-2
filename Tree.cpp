@@ -25,7 +25,7 @@ Tree::Tree(Node n)
     {
         return 0;
     }
-    Node*:: insert (int a)
+    Tree::Node* Tree::insert (int a)
     {
         return Troot;
     }
