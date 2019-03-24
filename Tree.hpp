@@ -1,5 +1,4 @@
-#Danielle Zand and Benyamin Darmoni
-#pragma once
+/**  Danielle Zand and Benyamin Darmoni */#pragma once
 
 #include <iostream>
 
