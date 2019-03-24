@@ -1,39 +1,46 @@
 
-#pragma once
-
-#include <iostream>
-
-
-namespace ariel{
-  struct Node{
-    
-	int value;
-	Node *left;
-	Node *right;
-};
-
-class Tree {
-  
-  Node* Troot;
-
-  public:
-  Tree(Node);
-  Tree();
-  
-    
-    public:          //functions
-    int size();
-    int parent(int);
-    int left(int);
-    int right(int);
-    Tree& insert (int);
-    int root();
-    void remove (int);
-    bool contains(int);
-    void print();
-    
-    };
-    
-    
+#include "Tree.hpp"
+using namespace ariel;
+Tree::Tree()
+{
+    Troot=NULL;
 }
+Tree::Tree(Node n)
+{
+    Troot=&n;
+}
+  int Tree:: size()
+ {
+    return 0;
+}
+    int Tree:: parent(int a)
+    {
+        return 0;
+    }
+    int Tree:: left(int a)
+    {
+        return 0;
+    }
+    int Tree:: right(int a)
+    {
+        return 0;
+    }
+    Tree& Tree:: insert (int a)
+    {
+        
+    }
+    int Tree:: root()
+    {
+        return 0;
+    }
+    void Tree:: remove (int a){
+        return;
+    }
+    bool Tree:: contains(int a){
+        return false;
+    }
+    void Tree:: print(){
+        return;
+    }
+
     
