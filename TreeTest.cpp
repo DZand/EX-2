@@ -111,8 +111,9 @@ int main() {
  
   .CHECK_THROWS(threetree.remove(2))
   
-  .CHECK_OK    (tentree.remove(5))
-  
+  .CHECK_OK    (tentree.remove(1))
+    
+  .CHECK_EQUAL (threetree.left(2), -3)  
    
    
    
