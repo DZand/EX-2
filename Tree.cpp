@@ -39,33 +39,7 @@ Tree::Tree(Node n)
     }
     bool Tree:: contains(int a)
     {
-        Node *current = root;	
-        while(current->data != data)
-        {
-	
-             if(current != NULL) 
-             {	
-                    //go to left tree
-                    if(current->data > data)
-                    {
-                         current = current->leftChild;
-                    }     //else go to right tree
-             else 
-             {                
-            current = current->rightChild;
-         }
-			
-         //not found
-         if(current == NULL)
-         {
-            return NULL;
-         }
-      }			
-   }
-   
-   return current;
-
-        return false;
+  	return NULL;
     }
     void Tree:: print()
     {
