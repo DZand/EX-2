@@ -29,7 +29,7 @@ class Tree
     int parent(int);
     int left(int);
     int right(int);
-    Node* insert (int);
+    Node insert (int);
     int root();
     void remove (int);
     bool contains(int);
