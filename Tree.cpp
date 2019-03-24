@@ -39,7 +39,7 @@ Tree::Tree(Node n)
     }
     bool Tree:: contains(int a)
     {
-        struct node *current = root;	
+        node *current = root;	
         while(current->data != data)
         {
 	
