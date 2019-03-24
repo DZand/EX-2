@@ -4,15 +4,18 @@
 #include <iostream>
 
 
-namespace ariel{
-  struct Node{
+namespace ariel
+{
+  struct Node
+  {
     
 	int value;
 	Node *left;
 	Node *right;
-};
+  };
 
-class Tree {
+class Tree
+{
   
   Node* Troot;
 
@@ -32,7 +35,7 @@ class Tree {
     bool contains(int);
     void print();
     
-    };
+  };
     
     
 }
