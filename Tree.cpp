@@ -27,7 +27,7 @@ Tree::Tree(Node n)
     }
     Tree& Tree:: insert (int a)
     {
-        return null;
+        return NULL;
     }
     int Tree:: root()
     {
