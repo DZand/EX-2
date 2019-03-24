@@ -39,7 +39,7 @@ Tree::Tree(Node n)
     }
     bool Tree:: contains(int a)
     {
-  	return NULL;
+  	return FALSE;
     }
     void Tree:: print()
     {
