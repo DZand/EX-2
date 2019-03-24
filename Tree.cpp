@@ -13,11 +13,7 @@ Tree::Tree(Node n)
 }
   int Tree:: size()
     {
-      
-    if (Troot == NULL)  
-        return 0;  
-    else
-       return(size(Troot->left) + 1 + size(Troot->right));
+      return 0;
     }
 
     int Tree:: parent(int a)
@@ -35,11 +31,7 @@ Tree::Tree(Node n)
     Node * Tree::insert(int a)
     {
         
-        Node* NewNode = new node(); 
-        NewNode->value = a;  
-        NewNode->left = NULL;  
-        NewNode->right = NULL;
-        return (NewNode);
+        return NULL;
     }
 
     int Tree:: root()
