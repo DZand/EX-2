@@ -27,13 +27,27 @@ int main() {
 
   ariel::Tree emptytree;
 
-  ariel::Tree threetree;  
+  ariel::Tree threetree; 
+  
+  ariel::Tree tentree;
 
   threetree.insert(5);
 
   threetree.insert(7);
 
   threetree.insert(3);
+  
+  tentree.insert(8);
+  tentree.insert(12);
+  tentree.insert(3);
+  tentree.insert(4);
+  tentree.insert(2);
+  tentree.insert(7);
+  tentree.insert(1);
+  tentree.insert(9);
+  tentree.insert(11);
+  tentree.insert(5);
+  tentree.insert(-3);
 
   
 
@@ -96,6 +110,9 @@ int main() {
   .CHECK_EQUAL (threetree.left(7), 3)
  
   .CHECK_THROWS(threetree.remove(2))
+  
+  .CHECK_OK    (tentree.remove(5))
+  
    
    
    
