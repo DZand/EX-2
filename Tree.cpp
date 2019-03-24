@@ -10,9 +10,9 @@ Tree::Tree(Node n)
     Troot=&n;
 }
   int Tree:: size()
- {
+    {
     return 0;
-}
+    }
     int Tree:: parent(int a)
     {
         return 0;
@@ -33,14 +33,17 @@ Tree::Tree(Node n)
     {
         return 0;
     }
-    void Tree:: remove (int a){
-        return;
+    void Tree:: remove (int a)
+    {
+       
     }
-    bool Tree:: contains(int a){
+    bool Tree:: contains(int a)
+    {
         return false;
     }
-    void Tree:: print(){
-        return;
+    void Tree:: print()
+    {
+   
     }
 
     
